@@ -137,6 +137,25 @@ body{
     margin-top: 50px;
 }
 
+footer {
+    width: 100%; 
+    margin-top: 40%;
+}
+  
+.attribution {
+    font-size: 0.6em;
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+}
+  
+.attribution a {
+    color: hsl(300, 43%, 22%);
+}
+  
+.attribution a:hover {
+    color: hsl(333, 80%, 67%);
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -223,6 +242,10 @@ body{
     #irene, #anne{
         margin-left: 5%;
         margin-top: 20px;
+    }
+    
+    footer{
+        margin-top: 12%;
     }
 }
 
