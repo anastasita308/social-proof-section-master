@@ -1,3 +1,16 @@
+:root{
+    --primary-300: hsl(333, 80%, 67%);
+    --primary-700: hsl(300, 43%, 22%);
+    --neutral-100: hsl(303, 10%, 53%);
+    --neutral-200: hsl(300, 24%, 96%);
+    --neutral-300: hsl(0, 0%, 100%);
+    --font-size-base: "spartan", sans-serif;
+    --font-size-400: 0.8125rem;
+    --font-size-500: 0.9625rem;
+    --font-size-900: 2rem;
+    --br: 1rem;
+    }
+
 html{
     background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
     background-position: bottom right, top left;
@@ -9,7 +22,7 @@ body{
     font-family: 'Spartan', sans-serif;
     width: auto;
     height: auto;
-    margin: 80px 120px;
+    margin: 5% 10%;
     font-size: 15px;
     line-height: 2;
 }
@@ -129,8 +142,8 @@ body{
 }
 
 
-/* For mobile screens */
-@media only screen and (min-width: 375px) and (max-width: 539px){
+/* For mobile screens and tablets */
+@media only screen and (min-width: 280px) and (max-width: 1024px){
 
     html{
         background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
@@ -139,24 +152,10 @@ body{
         background-size: 100%;
     }
 
-    :root {
-        --primary-300: hsl(333, 80%, 67%);
-        --primary-700: hsl(300, 43%, 22%);
-        --neutral-100: hsl(303, 10%, 53%);
-        --neutral-200: hsl(300, 24%, 96%);
-        --neutral-300: hsl(0, 0%, 100%);
-        --font-size-base: "spartan", sans-serif;
-        --font-size-400: 0.8125rem;
-        --font-size-500: 0.9625rem;
-        --font-size-900: 2rem;
-        --br: 1rem;
-    }
-
-
     .caption-container{
         display: block;
         text-align: center;
-        width: 350px;
+        width: 90%;
         padding-right: 0;
         margin-top: 60px;
         margin-bottom: 30px;
@@ -166,16 +165,16 @@ body{
         font-family: 'Spartan', sans-serif;
         display: block;
         text-align: center;
-        width: 310px;
-        margin-left: -40px;
+        width: 88%;
+        margin-left: 12%;
     }
 
     .caption2{
         font-family: 'Spartan', sans-serif;
         display: block;
         text-align: center;
-        width: 330px;
-        margin-left: -50px;
+        width: 90%;
+        margin-left: 10%;
     }
 
     .rating{
@@ -183,13 +182,13 @@ body{
         position: relative;
         position: center;
         margin: auto;
-        width: 330px;
-        margin-left: -50px;
+        width: 90%;
+        margin-left: 10%;
     }
 
     .ratingstyle{
         font-family: 'Spartan', sans-serif;
-        width: 330px;
+        width: 90%;
     }
 
     #rating2, #rating3{
@@ -205,208 +204,27 @@ body{
     .clients{
         display: block;
         font-family: 'Spartan', sans-serif;
-        margin-left: -50px;
-    }
-
-    #colton, #irene, #anne{
-        font-family: 'Spartan', sans-serif;
-        position: relative;
-        display: block;
-        
-    }
-
-    #irene, #anne{
-        margin-left: auto;
-        margin-top: 20px;
-    }
-}
-
-@media only screen and (min-width: 540px) and (max-width: 767px){
-
-    html{
-        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
-        background-position: top left, bottom right;
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-
-    :root {
-        --primary-300: hsl(333, 80%, 67%);
-        --primary-700: hsl(300, 43%, 22%);
-        --neutral-100: hsl(303, 10%, 53%);
-        --neutral-200: hsl(300, 24%, 96%);
-        --neutral-300: hsl(0, 0%, 100%);
-        --font-size-base: "spartan", sans-serif;
-        --font-size-400: 0.8125rem;
-        --font-size-500: 0.9625rem;
-        --font-size-900: 2rem;
-        --br: 1rem;
-    }
-
-
-    .caption-container{
-        display: block;
-        text-align: center;
-        width: 350px;
-        padding-right: 0;
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-
-    .caption{
-        font-family: 'Spartan', sans-serif;
-        display: block;
-        text-align: center;
-        width: 310px;
-        margin-left: -15px;
-    }
-
-    .caption2{
-        font-family: 'Spartan', sans-serif;
-        display: block;
-        text-align: center;
-        width: 330px;
-        margin-left: -15px;
-    }
-
-    .rating{
-        display: block;
-        position: relative;
-        position: center;
-        margin: auto;
-        width: 330px;
-        margin-left: -15px;
-    }
-
-    .ratingstyle{
-        font-family: 'Spartan', sans-serif;
-        width: 330px;
-    }
-
-    #rating2, #rating3{
         margin-left: 0;
-
-    }
-
-    .stars{
-        display: block;
-        text-align: center;
-    }
-
-    .clients{
-        display: block;
-        font-family: 'Spartan', sans-serif;
-        margin-left: -15px;
     }
 
     #colton, #irene, #anne{
         font-family: 'Spartan', sans-serif;
         position: relative;
         display: block;
-        
-    }
-
-    #irene, #anne{
-        margin-left: auto;
-        margin-top: 20px;
-        margin-left: 0px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 979px){
-
-    html{
-        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
-        background-position: top left, bottom right;
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-
-    :root {
-        --primary-300: hsl(333, 80%, 67%);
-        --primary-700: hsl(300, 43%, 22%);
-        --neutral-100: hsl(303, 10%, 53%);
-        --neutral-200: hsl(300, 24%, 96%);
-        --neutral-300: hsl(0, 0%, 100%);
-        --font-size-base: "spartan", sans-serif;
-        --font-size-400: 0.8125rem;
-        --font-size-500: 0.9625rem;
-        --font-size-900: 2rem;
-        --br: 1rem;
-    }
-
-
-    .caption-container{
-        display: block;
-        text-align: center;
-        width: 420px;
-        padding-right: 0;
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-
-    .caption{
-        font-family: 'Spartan', sans-serif;
-        display: block;
-        text-align: center;
-        width: 400px;
-        margin-left: 60px;
-    }
-
-    .caption2{
-        font-family: 'Spartan', sans-serif;
-        display: block;
-        text-align: center;
-        width: 420px;
-        margin-left: 50px;
-    }
-
-    .rating{
-        display: block;
-        position: relative;
-        position: center;
-        margin: auto;
-        width: 500px;
-        margin-left: 10px;
-    }
-
-    .ratingstyle{
-        font-family: 'Spartan', sans-serif;
-        width: 500px;
-    }
-
-    #rating2, #rating3{
-        margin-left: 0;
-
-    }
-
-    .stars{
-        display: block;
-        text-align: center;
-    }
-
-    .clients{
-        display: block;
-        font-family: 'Spartan', sans-serif;
-        margin-left: -5px;
-    }
-
-    #colton, #irene, #anne{
-        font-family: 'Spartan', sans-serif;
-        position: relative;
-        display: block;
-        width: 500px;
+        width: 90%;
         
     }
 
     #colton{
-        margin-left: 15px;
+        margin-left: 5%;
     }
 
     #irene, #anne{
-        margin-left: 15px;
+        margin-left: 5%;
         margin-top: 20px;
     }
 }
+
+
 
 
