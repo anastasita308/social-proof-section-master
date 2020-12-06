@@ -1,0 +1,412 @@
+html{
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    background-position: bottom right, top left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    width: auto;
+    height: auto;
+    margin: 80px 120px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.caption-container{
+    display: inline-block;
+    padding-right: 130px;
+}
+
+.caption{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    width: 400px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.caption2{
+    width: 450px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 400;
+    line-height: 2;
+}
+
+.rating{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.stars{
+    padding-right: 30px;
+}
+
+.stars img{
+    padding-right: 5px;
+}
+
+.ratingstyle{
+    background-color: hsl(300, 24%, 96%);
+    width: 500px;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 10px;
+}
+
+#rating2{
+    margin-left: 40px;
+}
+
+#rating3{
+    margin-left: 80px;
+}
+
+
+.clients{
+    margin: 50px auto;
+}
+
+.reviewstyle{
+    background-color: hsl(300, 43%, 22%);
+    width: 330px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.name, .buyer{
+    text-align: left;
+    line-height: 0.5;
+}
+
+.name{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.buyer{
+    padding-left: 3rem;
+    padding-bottom: 15px;
+    font-weight: 500;
+    color:hsl(303, 10%, 53%);
+}
+
+.review{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.clients img{
+    float: left;
+    padding-right: 1.5rem;
+    margin-top: 5px;
+}
+
+#colton{
+    position: absolute;
+}
+
+#irene{
+    position: absolute;
+    margin-left: 405px;
+    margin-top: 25px;
+}
+
+#anne{
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 50px;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+/* For mobile screens */
+@media only screen and (min-width: 375px) and (max-width: 539px){
+
+    html{
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-position: top left, bottom right;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    :root {
+        --primary-300: hsl(333, 80%, 67%);
+        --primary-700: hsl(300, 43%, 22%);
+        --neutral-100: hsl(303, 10%, 53%);
+        --neutral-200: hsl(300, 24%, 96%);
+        --neutral-300: hsl(0, 0%, 100%);
+        --font-size-base: "spartan", sans-serif;
+        --font-size-400: 0.8125rem;
+        --font-size-500: 0.9625rem;
+        --font-size-900: 2rem;
+        --br: 1rem;
+    }
+
+
+    .caption-container{
+        display: block;
+        text-align: center;
+        width: 350px;
+        padding-right: 0;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .caption{
+        font-family: 'Spartan', sans-serif;
+        display: block;
+        text-align: center;
+        width: 310px;
+        margin-left: -40px;
+    }
+
+    .caption2{
+        font-family: 'Spartan', sans-serif;
+        display: block;
+        text-align: center;
+        width: 330px;
+        margin-left: -50px;
+    }
+
+    .rating{
+        display: block;
+        position: relative;
+        position: center;
+        margin: auto;
+        width: 330px;
+        margin-left: -50px;
+    }
+
+    .ratingstyle{
+        font-family: 'Spartan', sans-serif;
+        width: 330px;
+    }
+
+    #rating2, #rating3{
+        margin-left: 0;
+
+    }
+
+    .stars{
+        display: block;
+        text-align: center;
+    }
+
+    .clients{
+        display: block;
+        font-family: 'Spartan', sans-serif;
+        margin-left: -50px;
+    }
+
+    #colton, #irene, #anne{
+        font-family: 'Spartan', sans-serif;
+        position: relative;
+        display: block;
+        
+    }
+
+    #irene, #anne{
+        margin-left: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 767px){
+
+    html{
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-position: top left, bottom right;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    :root {
+        --primary-300: hsl(333, 80%, 67%);
+        --primary-700: hsl(300, 43%, 22%);
+        --neutral-100: hsl(303, 10%, 53%);
+        --neutral-200: hsl(300, 24%, 96%);
+        --neutral-300: hsl(0, 0%, 100%);
+        --font-size-base: "spartan", sans-serif;
+        --font-size-400: 0.8125rem;
+        --font-size-500: 0.9625rem;
+        --font-size-900: 2rem;
+        --br: 1rem;
+    }
+
+
+    .caption-container{
+        display: block;
+        text-align: center;
+        width: 350px;
+        padding-right: 0;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .caption{
+        font-family: 'Spartan', sans-serif;
+        display: block;
+        text-align: center;
+        width: 310px;
+        margin-left: -15px;
+    }
+
+    .caption2{
+        font-family: 'Spartan', sans-serif;
+        display: block;
+        text-align: center;
+        width: 330px;
+        margin-left: -15px;
+    }
+
+    .rating{
+        display: block;
+        position: relative;
+        position: center;
+        margin: auto;
+        width: 330px;
+        margin-left: -15px;
+    }
+
+    .ratingstyle{
+        font-family: 'Spartan', sans-serif;
+        width: 330px;
+    }
+
+    #rating2, #rating3{
+        margin-left: 0;
+
+    }
+
+    .stars{
+        display: block;
+        text-align: center;
+    }
+
+    .clients{
+        display: block;
+        font-family: 'Spartan', sans-serif;
+        margin-left: -15px;
+    }
+
+    #colton, #irene, #anne{
+        font-family: 'Spartan', sans-serif;
+        position: relative;
+        display: block;
+        
+    }
+
+    #irene, #anne{
+        margin-left: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px){
+
+    html{
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-position: top left, bottom right;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    :root {
+        --primary-300: hsl(333, 80%, 67%);
+        --primary-700: hsl(300, 43%, 22%);
+        --neutral-100: hsl(303, 10%, 53%);
+        --neutral-200: hsl(300, 24%, 96%);
+        --neutral-300: hsl(0, 0%, 100%);
+        --font-size-base: "spartan", sans-serif;
+        --font-size-400: 0.8125rem;
+        --font-size-500: 0.9625rem;
+        --font-size-900: 2rem;
+        --br: 1rem;
+    }
+
+
+    .caption-container{
+        display: block;
+        text-align: center;
+        width: 420px;
+        padding-right: 0;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .caption{
+        font-family: 'Spartan', sans-serif;
+        display: block;
+        text-align: center;
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .caption2{
+        font-family: 'Spartan', sans-serif;
+        display: block;
+        text-align: center;
+        width: 420px;
+        margin-left: 50px;
+    }
+
+    .rating{
+        display: block;
+        position: relative;
+        position: center;
+        margin: auto;
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .ratingstyle{
+        font-family: 'Spartan', sans-serif;
+        width: 500px;
+    }
+
+    #rating2, #rating3{
+        margin-left: 0;
+
+    }
+
+    .stars{
+        display: block;
+        text-align: center;
+    }
+
+    .clients{
+        display: block;
+        font-family: 'Spartan', sans-serif;
+        margin-left: -5px;
+    }
+
+    #colton, #irene, #anne{
+        font-family: 'Spartan', sans-serif;
+        position: relative;
+        display: block;
+        width: 500px;
+        
+    }
+
+    #colton{
+        margin-left: 15px;
+    }
+
+    #irene, #anne{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+}
+
+
